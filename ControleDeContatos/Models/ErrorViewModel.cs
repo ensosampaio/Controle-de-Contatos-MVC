@@ -1,4 +1,4 @@
-namespace ControleDeContatos.Models
+﻿namespace ControleDeContatos.Models
 {
     public class ErrorViewModel
     {
@@ -7,3 +7,4 @@ namespace ControleDeContatos.Models
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
+
