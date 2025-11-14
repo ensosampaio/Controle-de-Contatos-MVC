@@ -84,7 +84,7 @@ namespace ControleDeContatos.Controllers
         {
             try
             {
-                if (!ModelState.IsValid)
+                if (ModelState.IsValid)
                 {
                     _contatoRepositorio.Atualizar(contato);
                     TempData["MensagemSucesso"] = "Contato atualizado com sucesso!";
